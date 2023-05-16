@@ -25,22 +25,26 @@ for(let x = 1 ; x <= 100 ; x++) {
     const liElement = document.createElement("li");
     liElement. innerHTML = "Fizz-Buzz" ;
      ulElement.appendChild(liElement);
+     liElement.classList.add ("blueviolet");
 
 
     }else if( x % 5 == 0) {
         const liElement = document.createElement("li");
         liElement. innerHTML = "Buzz" ;
          ulElement.appendChild(liElement);
+         liElement.classList.add ("cyan");
 
     }else if( x % 3 == 0) {
         const liElement = document.createElement("li");
         liElement. innerHTML = "Fizz" ;
          ulElement.appendChild(liElement);
+         liElement.classList.add ("red");
     
     }else { 
         const liElement = document.createElement("li");
         liElement. innerHTML = x ;
          ulElement.appendChild(liElement);
+         liElement.classList.add ("yellow");
 
     }
     

@@ -1,3 +1,19 @@
 ul {
     list-style-type: none;
 }
+ 
+.blueviolet{
+    color:blueviolet;
+}
+
+.red{
+    color: red;
+}
+
+.cyan{
+    color: cyan;
+}
+
+.yellow{
+    color: yellowgreen;
+}
